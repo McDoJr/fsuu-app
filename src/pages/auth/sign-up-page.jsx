@@ -41,7 +41,7 @@ const SignUpPage = ({profile, addProfile}) => {
                         <input type="password" placeholder="enter your password" name="password" onChange={handleChange}/>
                         <input type="password" placeholder="enter your password" name="confirm_password" onChange={handleChange}/>
                         <button>SIGN UP</button>
-                        <p>Don't have an account? <Link to="/signin">Sign In</Link></p>
+                        <p>Already have an account? <Link to="/signin">Sign In</Link></p>
                         <span>By registering, You agree to the</span>
                         <span>Terms, Conditions and Policies of FSUU </span>
                         <span>ROOM LOCATOR & Privacy Policy.</span>
