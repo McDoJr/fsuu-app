@@ -1,0 +1,96 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.container h2 {
+    align-self: center;
+    margin: 50px 0 20px 0;
+}
+
+.left {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+}
+
+.top h1 {
+    align-self: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+
+.top p {
+    font-size: 20px;
+    word-spacing: .3rem;
+}
+
+.top p:last-of-type {
+    margin-top: 30px;
+}
+
+.bottom {
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bottom div h3 {
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 30px;
+}
+
+.bottom div h5 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 0;
+    width: 100%;
+    border-bottom: 1px solid #a5a5a5;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom div h5:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right img {
+    margin-top: 50px;
+    object-fit: contain;
+}

@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.container h1:last-of-type {
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+    word-spacing: .5rem;
+}
+
+.box h2 {
+    font-size: 40px;
+    margin: 20px 0 15px 0;
+}
+
+.box img {
+    object-fit: contain;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.box img:first-of-type {
+    margin-bottom: 50px;
+}
+
+.box img:first-of-type:hover {
+    transform: scale(1.1) translateY(-10px);
+}
+
+.box img:last-child {
+    transform: translateY(-60px);
+}
+
+.box img:nth-last-of-type(2):hover {
+    transform: scale(1.1) translateY(-20px);
+}
+
+.box img:last-child:hover {
+    transform: scale(1.1) translateY(-30px);
+}
+
+.box div:first-child {
+    width: 35%;
+}
+
+.box div:nth-last-child(3) {
+    width: 47%;
+}
+
+.box div:nth-last-child(2) {
+    width: 47%;
+}
+
+.box div:nth-last-child(2) p {
+    margin-bottom: 20px;
+}

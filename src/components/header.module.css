@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    height: 80px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 500;
+    user-select: none;
+    box-shadow: 1px 1px 5px rgba(3, 45, 108, .3);
+}
+
+.container img {
+    cursor: pointer;
+}
+
+.container .ul {
+    margin: 0 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.container .ul li {
+    margin: 0 20px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.container a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.container .ul .li {
+    position: relative;
+    padding-right: 30px;
+}
+
+.container .ul .li a:first-of-type {
+    position: relative;
+}
+
+.container .ul .li .icon {
+    position: absolute;
+    right: -30px;
+}
+
+.container .ul ul {
+    width: 330px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    position: absolute;
+    top: 39px;
+    left: -40px;
+    z-index: 1;
+}
+
+.container .ul ul li {
+    width: 100%;
+    transition: all .1s ease;
+    background-color: #ffffff;
+}
+
+.container .ul ul li span {
+    padding: 0 20px;
+}
+
+.container .ul ul li:hover {
+    color: #ffffff;
+    background-color: var(--primary-color);
+}
+
+/*.container .ul ul li a:hover {*/
+/*    color: #ffffff;*/
+/*}*/
+
+.container .ul ul li:last-child {
+    padding-bottom: 10px;
+}
+
+.container button {
+    padding: 10px 50px 10px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.container button .icon {
+    position: absolute;
+    right: 25px;
+    top: 13px;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}

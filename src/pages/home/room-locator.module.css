@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    height: 190vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.container div {
+    margin: 100px 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container label {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+}
+
+.container button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 120px 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 20px;
+}
+
+.container button ul {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.container button ul li {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.container button ul li:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.container button ul li span {
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+.container img {
+    width: 100%;
+    position: absolute;
+    /*object-fit: contain;*/
+    /*z-index: -1;*/
+}
+
+.container img:first-of-type {
+    top: -100px;
+    right: 0;
+}
+
+.container img:nth-last-of-type(2) {
+    bottom: -130px;
+}
+
+.container img:last-of-type {
+    right: -230px;
+    top: -230px;
+    transform: scale(.7);
+}
